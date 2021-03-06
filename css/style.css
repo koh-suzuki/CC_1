@@ -1,0 +1,200 @@
+body {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  height: 65px;
+  width: 100%;
+  padding: 0 15px;
+  background-color: rgba(34, 49, 52, 0.9);
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+}
+
+.header__logo {
+  width: 124px;
+  height: 2.5rem;
+  float: left;
+}
+
+.header__logo img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__item {
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 25px;
+}
+
+/* #fv */
+.section__wrapper {
+  background-image: url(/image/fv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 11.25rem 0 6.25rem 0;
+  color: #fff;
+}
+
+.fv__title {
+  font-size: 2.812rem;
+  margin: 1.875rem 0;
+  opacity: .7;
+  letter-spacing: 0.312rem;
+}
+
+.fv__text {
+  font-size: 1rem;
+  margin: 1rem 0 2.5rem 0;
+  opacity: .7;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn__signup {
+  background-color: rgba(44, 149, 124, 0.8);
+}
+
+.btn__fb {
+  margin-right: 10px;
+  background-color: rgba(58, 86, 140, 0.8);
+}
+
+.btn__tw {
+  background-color: rgba(73, 154, 208, 0.8);
+}
+
+.text {
+  font-size: 1rem;
+  margin: 1rem 0 1.25rem;
+  opacity: .7;
+}
+
+.lesson__wrapper {
+  padding: 0 5% 80px;
+  background-color: #f7f7f7;
+}
+
+.lesson__title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 80px 0 50px 0;
+  margin: 0 20px;
+}
+
+.lesson__inner {
+  display: flex;
+}
+
+.lesson__contents {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text__content {
+  width: 200px;
+  margin: 15px 0;
+  text-align: center;
+  color: #b3aeb5;
+}
+
+.contents__inner {
+  width: 200px;
+  position: relative;
+}
+
+.img__title {
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+}
+
+.learn__wrapper {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #eee;
+}
+
+.learn__inner {
+  text-align: center;
+  padding: 80px 50px;
+}
+
+.learn__inner .learn__title {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.learn__inner .learn__text {
+  font-size: 1.125rem;
+  margin: 20px 0;
+}
+
+.learn__btn {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.learn__btn:hover {
+  opacity: 1;
+}
+
+.learn__btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.btn {
+  color: #fff;
+  text-align: center;
+}
+
+.footer {
+  padding: 20px 15px;
+}
+
+.footer__img {
+  width: 125px;
+}
+
+.footer__img img {
+  width: 100%;
+}
+
+.footer__text {
+  margin: 12px 0;
+  color: #b3aeb5;
+  font-size: 0.75rem;
+}
+/*# sourceMappingURL=style.css.map */

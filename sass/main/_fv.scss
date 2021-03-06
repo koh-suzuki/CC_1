@@ -1,0 +1,40 @@
+/* #fv */ 
+.section__wrapper {
+  background-image: url(/image/fv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 11.25rem 0 6.25rem 0;
+  color: #fff;
+}
+.fv__title {
+  font-size: 2.812rem;
+  margin: 1.875rem 0;
+  opacity: .7;
+  letter-spacing: 0.312rem;
+}
+.fv__text {
+  font-size: 1rem;
+  margin: 1rem 0 2.5rem 0;
+  opacity: .7;
+}
+.btn {
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.btn__signup {
+  background-color: rgba(44,149,124,.8);
+}
+.btn__fb {
+  margin-right: 10px;
+  background-color: rgba(58,86,140,.8);
+}
+.btn__tw {
+  background-color: rgba(73,154,208,.8);
+}
+.text {
+  font-size: 1rem;
+  margin: 1rem 0 1.25rem;
+  opacity: .7;
+}
